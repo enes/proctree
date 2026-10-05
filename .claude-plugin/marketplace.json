@@ -1,0 +1,14 @@
+{
+  "name": "proctree",
+  "owner": {
+    "name": "Enes Kantepe"
+  },
+  "description": "proctree: a live process tree, RAM and CPU monitor for Claude Code sessions",
+  "plugins": [
+    {
+      "name": "proctree",
+      "source": "./",
+      "description": "Live process tree, RAM and CPU of your Claude Code session and everything it spawns"
+    }
+  ]
+}

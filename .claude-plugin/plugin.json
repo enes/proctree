@@ -1,0 +1,36 @@
+{
+  "name": "proctree",
+  "version": "0.1.0",
+  "description": "Live process tree, RAM and CPU of your Claude Code session and everything it spawns",
+  "author": {
+    "name": "Enes Kantepe"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/enes/proctree",
+  "repository": "https://github.com/enes/proctree",
+  "keywords": [
+    "process",
+    "monitor",
+    "memory",
+    "ram",
+    "cpu",
+    "process-tree"
+  ],
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "intervalSeconds": {
+      "type": "number",
+      "title": "Refresh interval (seconds)",
+      "description": "How often proctree samples the process tree.",
+      "default": 2,
+      "min": 1,
+      "max": 60
+    },
+    "showStatus": {
+      "type": "boolean",
+      "title": "Show in status line",
+      "description": "Show total RAM and process count in the status line. When off, proctree only samples while its pane is open.",
+      "default": true
+    }
+  }
+}
